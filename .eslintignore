@@ -1,0 +1,6 @@
+/dist/
+/src/addTags/locale/
+/src/addTags/mixins/
+/src/addTags/utils/
+/src/addTags/select.vue
+/src/addTags/option.vue

@@ -1,0 +1,78 @@
+{
+  "name": "el-cascader-virtual-scroll",
+  "version": "0.0.1",
+  "description": "基于element-ui的cascader,增加虚拟滚动功能",
+  "main": "dist/elCascaderVirtualScroll.js",
+  "repository": "https://github.com/zane626/el-cascader-virtual-scroll",
+  "homepage": "https://github.com/zane626/el-cascader-virtual-scroll",
+  "author": {
+    "name": "zane",
+    "email": "zzg9583@gmail.com",
+    "url": "https://github.com/zane626"
+  },
+  "files": [
+    "dist/*.js"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "bootstrap": "yarn || npm i",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+    "build": "cross-env NODE_ENV=production webpack --config build/webpack.prod.conf.js"
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "IE 10"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.2.0",
+    "@babel/plugin-transform-runtime": "^7.3.4",
+    "@babel/preset-env": "^7.2.0",
+    "@babel/runtime": "^7.3.4",
+    "@vue/babel-preset-jsx": "^1.1.2",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "autoprefixer": "^9.4.7",
+    "babel-eslint": "^10.0.1",
+    "babel-helper-vue-jsx-merge-props": "^2.0.0",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-component": "^1.1.1",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-plugin-transform-vue-jsx": "^4.0.1",
+    "copy-webpack-plugin": "^5.0.1",
+    "cross-env": "^5.2.0",
+    "css-loader": "^2.0.0",
+    "element-theme-chalk": "^2.13.2",
+    "element-ui": "2.15.13",
+    "eslint": "^5.10.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "file-loader": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "husky": "^3.0.1",
+    "lodash": "^4.17.10",
+    "mini-css-extract-plugin": "^0.5.0",
+    "postcss": "^7.0.14",
+    "postcss-loader": "^3.0.0",
+    "sass": "^1.62.0",
+    "sass-loader": "^10.4.1",
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2",
+    "vue": "^2.5.22",
+    "vue-i18n": "^7.6.0",
+    "vue-loader": "^15.6.2",
+    "vue-template-compiler": "^2.5.2",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10",
+    "webpack-merge": "^4.1.5"
+  },
+  "preeDependencies": {
+    "element-ui": "^2.15.13"
+  }
+}
